@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f00"
+    tools:context="com.example.yuzelli.android5xspeciality.excessive.FristActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="explode"
+        android:text="explode"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slide"
+        android:text="slide"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fade"
+        android:text="fade"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="share"
+        android:text="share"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_shared_img"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher"
+        android:padding="10dp"
+        android:transitionName="sun"
+        android:layout_margin="10dp"
+        android:textSize="15sp"/>
+    <ImageView
+        android:transitionName="sheep"
+        android:id="@+id/iv_sheep_img"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="15sp"/>
+</LinearLayout>

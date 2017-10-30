@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".PaletteActivity" />
         <activity android:name=".EZTingClippActivity" />
-        <activity android:name=".CardViewActivity"></activity>
+        <activity android:name=".CardViewActivity" />
+        <activity android:name=".excessive.FristActivity" />
+        <activity android:name=".excessive.SecondActivity"></activity>
     </application>
 
 </manifest>
