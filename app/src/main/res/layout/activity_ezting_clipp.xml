@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ezting_clipp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yuzelli.android5xspeciality.EZTingClippActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="elevation"
+          android:textColor="#000" />
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:id="@+id/viewA"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:background="#f00"
+              android:gravity="center"
+              android:text="A" />
+
+          <TextView
+              android:id="@+id/viewB"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_marginLeft="60dp"
+              android:layout_marginTop="60dp"
+              android:background="#0f0"
+              android:gravity="center"
+              android:text="B" />
+
+          <!--ViewC有了一个elevation属性 -->
+          <TextView
+              android:id="@+id/viewC"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_marginLeft="180dp"
+              android:background="#f00"
+              android:elevation="1dp"
+              android:gravity="center"
+              android:text="C" />
+
+          <TextView
+              android:id="@+id/viewD"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:layout_marginLeft="240dp"
+              android:layout_marginTop="60dp"
+              android:background="#0f0"
+              android:gravity="center"
+              android:text="D" />
+      </FrameLayout>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#000" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Tinting"
+          android:textColor="#000" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="add" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="multiply" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="screen" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="src_atop" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="src_in" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:elevation="5dp"
+          android:src="@mipmap/ic_launcher"
+          android:tint="@color/blue"
+          android:tintMode="src_over" />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#000" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Clipping"
+          android:textColor="#000" />
+
+      <TextView
+          android:id="@+id/tv1"
+          android:layout_width="200dp"
+          android:layout_height="50dp"
+          android:elevation="1dp"
+          android:text="注册"
+          android:textSize="19sp"
+          android:layout_marginTop="20dp"
+          android:gravity="center"
+          android:textColor="@color/colorPrimaryDark"
+          android:layout_margin="20dp"/>
+  </LinearLayout>
+
+
+</ScrollView>

@@ -14,10 +14,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn_palette = this.findViewById(R.id.btn_palette);
+        this.findViewById(R.id.btn_palette).setOnClickListener(this);
 
-        btn_palette.setOnClickListener(this);
-
+        this.findViewById(R.id.btn_etc).setOnClickListener(this);
+        this.findViewById(R.id.btn_cardview).setOnClickListener(this);
     }
 
     @Override
@@ -26,7 +26,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (view.getId()) {
 
             case R.id.btn_palette:
-                intent.setClass(MainActivity.this,PaletteActivity.class);
+                intent.setClass(MainActivity.this, PaletteActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_etc:
+                intent.setClass(MainActivity.this, EZTingClippActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_cardview:
+                intent.setClass(MainActivity.this, CardViewActivity.class);
                 startActivity(intent);
                 break;
             default:

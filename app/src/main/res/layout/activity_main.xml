@@ -17,7 +17,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Palette" />
+            android:text="Palette:调试板" />
+
+        <Button
+            android:id="@+id/btn_etc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="EVE/TINT/CLIPPING:\n
+            elevation(阴影),tinting（着色）以及clipping（剪裁）" />
+
+        <Button
+            android:id="@+id/btn_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="CardView" />
 
     </LinearLayout>
 

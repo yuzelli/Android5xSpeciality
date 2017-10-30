@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PaletteActivity"></activity>
+        <activity android:name=".PaletteActivity" />
+        <activity android:name=".EZTingClippActivity" />
+        <activity android:name=".CardViewActivity"></activity>
     </application>
 
 </manifest>
