@@ -19,7 +19,8 @@
         <activity android:name=".EZTingClippActivity" />
         <activity android:name=".CardViewActivity" />
         <activity android:name=".excessive.FristActivity" />
-        <activity android:name=".excessive.SecondActivity"></activity>
+        <activity android:name=".excessive.SecondActivity" />
+        <activity android:name=".MaterialDesignActivity"></activity>
     </application>
 
 </manifest>

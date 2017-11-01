@@ -40,6 +40,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="过度动画" />
+        <Button
+            android:id="@+id/btn_material_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="material_design动画" />
 
     </LinearLayout>
 

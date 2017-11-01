@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_material_design"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yuzelli.android5xspeciality.MaterialDesignActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="无波纹" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="有波纹" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:text="有波纹超过边界" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ripple_bf"
+            android:padding="10dp"
+            android:text="文件" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btn_reval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="btn_reval"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_reval1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+
+            android:clickable="true"
+            android:elevation="5dip"
+            android:text="btn_reval1"
+            android:textAllCaps="false" />
+    </LinearLayout>
+    <!-- 没有效果 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/iv_reval"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/index"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_reval1"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/index"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>
