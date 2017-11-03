@@ -90,4 +90,22 @@
             android:src="@drawable/index"
             android:visibility="invisible" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="toolbar"/>
+    <TextView
+        android:id="@+id/tv_notification"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Notification"/>
+
+
+
 </LinearLayout>
