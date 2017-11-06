@@ -21,7 +21,8 @@
         <activity android:name=".excessive.FristActivity" />
         <activity android:name=".excessive.SecondActivity" />
         <activity android:name=".MaterialDesignActivity" />
-        <activity android:name=".ToolbarActivity"></activity>
+        <activity android:name=".ToolbarActivity" />
+        <activity android:name=".NotificationActivity"></activity>
     </application>
 
 </manifest>

@@ -88,7 +88,7 @@ public class MaterialDesignActivity extends AppCompatActivity {
         findViewById(R.id.tv_notification).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MaterialDesignActivity.this, ToolbarActivity.class);
+                Intent intent = new Intent(MaterialDesignActivity.this, NotificationActivity.class);
                 startActivity(intent);
             }
         });
